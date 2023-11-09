@@ -120,8 +120,8 @@ i {
 }
 
 .video {
-  padding-left: 130px;
-  height: 500px;
+  padding: 0%;
+  height: 800px;
 }
 
 .section-video-container h3 {
