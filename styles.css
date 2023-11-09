@@ -268,8 +268,6 @@ footer {
   width: 140px;
 }
 
-@media (max-width: 925px) {
-  .nav-link{
-    padding: auto;
-  }
+@media (max-width: 991px) {
+  
 }
