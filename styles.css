@@ -269,4 +269,7 @@ footer {
 }
 
 @media (max-width: 925px) {
+  .nav-link{
+    padding: auto;
+  }
 }
