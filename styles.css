@@ -5,6 +5,10 @@
   font-family: "Montserrat", sans-serif;
 }
 
+ul,ol{
+  list-style-type: none;
+}
+
 body {
   overflow-x: hidden;
   scroll-behavior: smooth;
@@ -24,13 +28,26 @@ i {
 .logo-nav {
   width: 140px;
 }
+
 .number {
   margin-top: 30px;
 }
 
 .nav2 {
   background-color: #3f98b6;
-  padding-right: 12px;
+  padding-right: 2px;
+}
+
+.nav-menu{
+  padding: 10px;
+  margin: auto;
+  display: flex;
+  justify-content: flex-end;
+  gap: 0.1px;
+}
+
+.nav-menu li{
+  padding:1%;
 }
 
 .nav-link {
@@ -101,6 +118,7 @@ i {
   border-radius: 0px;
   height: 240px;
 }
+
 .card2 {
   background-color: #3f98b6;
   color: white;
@@ -270,6 +288,15 @@ footer {
   width: 140px;
 }
 
+@media (max-width: 429px) {
+  /*.nav-link {
+    color: white;
+    font-size: 15px;
+    padding-right: 40px;
+  }
+  */
+}
+
 @media (max-width: 991px) {
   .cards-container {
     display: flex;
@@ -281,11 +308,28 @@ footer {
     width: 100%;
   }
 }
-/*
+
+
 @media (max-width: 767px) {
-  Agrega estilos específicos para pantallas más pequeñas aquí 
+  .nav-menu{
+    padding: 50px;
+    margin: auto;
+    display: inline;
+    text-align: center;
+  }
+
+  .nav-link {
+    color: white;
+    font-size: 15px;
+    padding: 0%;
+  }
+
+  .nav-menu li{
+    padding:3%;
+  }
 }
 
+/*
 @media (max-width: 575px) {
   Estilos adicionales para pantallas aún más pequeñas aquí
 }
