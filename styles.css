@@ -181,9 +181,6 @@ i {
   margin: 50px 0px;
 }
 
-.quienes-logo {
-  padding-left: 50px;
-}
 
 .quienes-info {
   margin-left: 30px;
@@ -350,6 +347,12 @@ footer {
     display: flex;
     justify-content: center;
     padding-bottom: 10%;
+  }
+
+  .map{
+    display: flex;
+    justify-content: center;
+    padding: 5%;
   }
 
   .footer-container {
