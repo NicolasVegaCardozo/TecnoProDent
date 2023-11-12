@@ -365,7 +365,21 @@ footer {
     width: 100%;
     height: 100%;
   }
+
+  .footer-container img {
+    width: 200px;
+  }
+
+  .footer-contacto{
+    padding: 2%;
+  }
+
+  .logo-footer{
+    padding: 4%;
+  }
 }
+
+
 
 
 
